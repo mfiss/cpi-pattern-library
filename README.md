@@ -1,7 +1,13 @@
+# CPI Pattern Library
+
+This pattern library contains a foundation of front-end code for producing microsites, landing pages, and other digital material for the Crisis Prevention Institute.
+
+The scope of this library will be limited as we await deployment of a full site redesign.
+
 ![license](https://img.shields.io/github/license/pattern-lab/patternlab-php.svg)
 [![Packagist](https://img.shields.io/packagist/v/pattern-lab/edition-mustache-standard.svg)](https://packagist.org/packages/pattern-lab/edition-mustache-standard) [![Gitter](https://img.shields.io/gitter/room/pattern-lab/php.svg)](https://gitter.im/pattern-lab/php)
 
-# Pattern Lab Standard Edition for Mustache
+## Pattern Lab Standard Edition for Mustache
 
 The Pattern Lab Standard Edition for Mustache is the evolution of Pattern Lab 1. Pattern Lab is still, at its core, a prototyping tool focused on encouraging communication between content creators, designers, devs, and clients. It combines platform-agnostic assets, like the [Mustache](http://mustache.github.io/)-based patterns, with a PHP-based "builder." Pattern Lab 2 introduces [the beginnings of an ecosystem](http://patternlab.io/docs/advanced-ecosystem-overview.html) that will allow teams to mix, match and extend Pattern Lab to meet their specific needs. It will also make it easier for the Pattern Lab team to push out new features. Pattern Lab Standard Edition for Mustache is just [one of the four PHP-based Editions currently available](http://patternlab.io/docs/installation.html).
 
