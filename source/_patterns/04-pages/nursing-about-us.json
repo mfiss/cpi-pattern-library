@@ -1,0 +1,66 @@
+{
+	"title" : "About Us",
+	"bodyClass": "home",
+		"hero" : {
+			"fade" : "right",
+		"imgHero" : {
+				"src" : "https://www.crisisprevention.com/CPI/media/Media/Nursing-Campaign-Assets/About-Us-Landing-Hero-Shot.jpg",
+				"alt" : "Everybody Deserves Safer Hospitals"
+		},
+		"headline" : {
+			"short" : "Everybody Deserves Safer Hospitals",
+			"medium" : "<i>Nonviolent Crisis Intervention</i><sup>®</sup> training is the key to a culture of safety."
+		},
+		"hero-button" : false
+	},
+		"aboutus-list" : {
+		"sectionTitle": "We empower nurses with the training to prevent and safely manage disruptive and assaultive behavior.",
+		"mediaList": [
+			{
+				"styleModifier" : "icons",
+				"imgSquare" : {
+					"src": "https://www.crisisprevention.com/CPI/media/Media/Nursing-Campaign-Assets/about-us-icons-1.png",
+					"alt": "Make Your Hospital Safer."
+				},
+				"headline" : {
+					"short" : "Make Your Hospital Safer."
+				},
+				"excerpt" : {
+					"medium" : "Our cornerstone program, <i>Nonviolent Crisis Intervention</i><sup>®</sup> training, teaches the practical skills and strategies needed for assessing, managing, and responding to risk behavior in the workplace. Focusing on verbal de-escalation and early intervention, our time-tested training provides your staff with an effective framework for decision making and problem solving—equipping them with the confidence to support a true culture of safety."
+				}
+				
+			},
+			{
+				"styleModifier" : "icons",
+				"imgSquare" : {
+					"src": "https://www.crisisprevention.com/CPI/media/Media/Nursing-Campaign-Assets/about-us-icons-2.png",
+					"alt": "Certify Few. Train Many."
+				},
+				"headline" : {
+					"short" : "Certify Few. Train Many."
+				},
+				"excerpt" : {
+					"medium" : "Choose key staff members to participate in an Instructor Certification Program. They’ll master the core models, physical intervention techniques, and facilitation skills. After becoming certified, they’ll train their colleagues on-site at your hospital and begin creating a measurable reduction in workplace violence and its associated negative outcomes."
+				}
+				
+			},
+			{
+				"styleModifier" : "icons",
+				"imgSquare" : {
+					"src": "https://www.crisisprevention.com/CPI/media/Media/Nursing-Campaign-Assets/about-us-icons-3.png",
+					"alt": "Signing Up Is Simple."
+				},
+				"headline" : {
+					"short" : "Signing Up Is Simple."
+				},
+				"excerpt" : {
+					"medium" : "The path to creating a true culture of safety at your hospital starts here with CPI training. Together we can make your hospital a safer and more productive facility with the positive outcomes you need."
+				}
+			}
+		],
+					"textButton" : false
+	},
+	"final-cta" : {
+		"btnText" : "Contact us for a free consultation."
+	}
+}

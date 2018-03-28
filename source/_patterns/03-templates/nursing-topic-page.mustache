@@ -1,0 +1,38 @@
+{{> organisms-header }}
+<main role="main">
+
+ {{#hero}}
+ {{>molecules-block-hero}}
+ {{/hero}}
+
+ <div class="container" id="stats">
+  <div class="row">
+   <div class="col-md-8">
+    {{# stat-list }}
+    {{> organisms-section-media-list }}
+    {{/ stat-list }}
+   </div>
+   <div class="col-md-4 pull-right small-text">
+    {{#resource}}
+    <img src="{{ resource-image }}" />
+    <h2>{{{ headline.short }}}</h2>
+    {{{ headline.medium }}}
+    {{/resource}} 
+    <div id="mkto_Form_Embed2">Marketo form goes here.</div>
+   </div>
+   <div class="col-md-8"> 
+    {{{NCI-copy}}}
+    <div class="text-center">
+     {{#final-cta}}
+     <h3>{{headline.short}}</h3>
+     {{> atoms-button}}
+     {{/ final-cta}}
+    </div>
+    {{> molecules-blockquote}}
+
+    {{> molecules-list-sources}}
+   </div>
+  </div>
+ </div>
+</main>
+{{> organisms-footer }}

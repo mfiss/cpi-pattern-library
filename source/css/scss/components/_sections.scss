@@ -1,0 +1,76 @@
+/*------------------------------------*\
+    #SECTIONS
+\*------------------------------------*/
+
+/**
+ * Section
+ */
+.c-section {
+	position: relative;
+ padding:$space-double 0;
+
+	.l-sidebar & {
+		@media all and (min-width: $bp-small-3) {
+			margin-right: 2em;
+			width: 50%;
+
+			&:last-child {
+				margin-right: 0;
+			}
+		}
+
+		@media all and (min-width: $bp-large) {
+			width: 100%;
+			margin-right: 0;
+		}
+	}
+}
+
+/**
+ * Section title
+ */
+.c-section__title {
+	position: relative;
+	color: $cpi_pri;
+	margin-bottom: 1.5rem;
+}
+
+
+/**
+ * Section block
+ */
+.c-results {
+	background: #ccc;
+}
+
+.c-tile-grid__inner {
+	display: flex;
+	flex-direction: column;
+
+	@media all and (min-width: $bp-med) {
+		flex-direction: row;
+	}
+}
+
+.c-tile-grid__primary {
+	display: flex;
+	position: relative;
+	width: 100%;
+	margin-bottom: 1rem;
+
+	@media all and (min-width: $bp-med) {
+		width: 50%;
+	}
+
+	@media all and (min-width: 55rem) {
+		width: 30%;
+	}
+}
+
+.c-tile-grid__secondary {
+	flex: 1;
+
+	@media all and (min-width: $bp-med){
+		padding: 0 0 0 1em;
+	}
+}

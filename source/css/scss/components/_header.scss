@@ -1,0 +1,97 @@
+/*------------------------------------*\
+    #HEADER
+\*------------------------------------*/
+
+/**
+ * Header
+ */
+ .navbar-nav {
+    background-color:white;
+    margin-bottom:25px;
+    padding-top:10px;
+    }
+  
+    .navbar-nav > li > a {
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    font-size: 14px;
+    color:#525252;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+
+  .navbar-nav a:hover {
+    color: #0d95cc;
+  }
+  
+  .navbar-nav .icon-bar {
+    background: rgba(0,0,0,.75);
+}
+  
+#header {
+    z-index:1000;
+    }
+  
+  .navbar-toggle .icon-bar {
+      display: block;
+      width: 30px;
+      height: 4px;
+      border-radius: 2px;
+      margin-top: 25px;
+  }
+
+  .nav>li>a {
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+  }
+
+  .navbar-primary .navbar-brand {
+      padding: 0;
+      display: block;
+      position: relative;
+      width: 150px;
+      margin-top:20px;
+  }
+
+  .header-section, .header-section.floating {
+    background-color: white;
+    color:#0d95cc;
+    z-index: 1000;
+  }
+
+  .header-section, .header-section.floating {
+    background-color: white;
+    color: #0d95cc;
+    z-index: 1000;
+  }
+
+  .navbar-primary .icon-bar {
+      background-color: #525252;
+  }
+
+  .navbar-brand img {
+    max-width:100px;
+  }
+
+  .navbar-nav > li {
+    -webkit-transition: all ease 0.25s;
+    transition: all ease 0.25s;
+    margin-right:15px;
+  }
+
+  .section > .container-fluid, .section > .container {
+    position: relative;
+  }
+
+  .header-section, .header-section.floating {
+    background-color: white;
+    color:#0d95cc;
+    z-index: 1000;
+  }
+
+      @media (max-width: 767px) {
+    
+    .navbar-nav {
+      margin:0;
+    }
+  }

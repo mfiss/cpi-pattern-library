@@ -1,0 +1,51 @@
+{
+	"title" : "Attrition",
+	"bodyClass": "home",
+	"hero" : {
+		"fade" : "right",
+		"imgHero" : {
+			"src" : "https://www.crisisprevention.com/CPI/media/Media/Nursing-Campaign-Assets/Attrition-landing-page.jpg",
+			"alt" : "You’re Losing Your Best People. You Don’t Have To."
+		},
+		"headline" : {
+			"short" : "You’re Losing Your Best People. You Don’t Have To.",
+			"medium" : "CPI training transforms your hospital’s culture by empowering nurses to focus on nursing."
+		},
+		"hero-button" : false
+	},
+	"stat-list" : {
+		"sectionTitle": false,
+		"mediaList": [
+			{
+				"styleModifier" : "icons",
+				"imgSquare" : {
+					"src": "https://www.crisisprevention.com//CPI/media/Media/Nursing-Campaign-Assets/Landing-Page-Icon-02.png",
+					"alt": false
+				},
+				"headline" : {
+					"short" : "This section is designed custom with Bootstrap columns depending on the number of stats."
+				},
+				"excerpt" : {
+					"medium" : "A solution that would allow for templating this section regardless of the number of statistics would be better."
+				}
+				
+			}
+		],
+		"textButton" : false
+	},
+	"resource" : {
+		"resource-image" : "https://www.crisisprevention.com/CPI/media/Media/Nursing-Campaign-Assets/Every-Nurse-Counts.jpg",
+		"headline" : {
+			"short" : "Every Nurse Counts",
+			"medium" : "<p>Workplace violence against nurses doesn’t happen in a vacuum—it happens on a continuum. And a systemic problem merits a holistic solution. Fill out the form to receive free evidence-based talking points to start an informed conversation at work about keeping your nurses safely anchored in fulfilling careers.</p>"
+	}
+},
+	"final-cta" : {
+		"headline" : {
+			"short" : "Act now and prevent violence from further harming your nursing staff and the patients they care for."
+		},
+		"btnText" : "Contact us for a free consultation."
+	},
+	"quoteText" : "“CPI training provides confidence in our staff who are directly involved with potentially violent and escalating situations to be able to approach and defuse the situation.”",
+	"quoteSource" : "Davette Hayes<br />Mental Health Technician"
+}

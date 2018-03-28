@@ -1,0 +1,34 @@
+{{> organisms-header }}
+<main role="main">
+
+	{{# carousel }}
+		{{> organisms-carousel }}
+	{{/ carousel}}
+
+{{>organisms-section-stats}}
+
+{{#parallax}}
+{{>molecules-block-parallax}}
+{{/parallax}}
+
+{{>organisms-section-visual-links}}
+
+
+<div class="c-section c-results cyan-text">
+ {{#results}}
+{{>organisms-section-masonry}}
+<h2>{{headline.long}}</h2>
+<div class="container">
+<div class="col-md-6">
+ {{> atoms-button(btnText: "Training and Events")}}
+</div>
+<div class="col-md-6">
+ {{> atoms-button(btnText: "Request Consultation")}}
+</div>
+{{/results}}
+
+
+</div>
+</div>
+</main>
+{{> organisms-footer }}

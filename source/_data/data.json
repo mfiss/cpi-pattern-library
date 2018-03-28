@@ -1,0 +1,185 @@
+{
+    "company" : {
+        "name" : "Crisis Prevention Institute",
+        "url" : "https://www.crisisprevention.com"
+    },
+    "title" : "Pattern Lab",
+    "pageTitle": "Page Title",
+    "logoURL" : "https://www.crisisprevention.com/CPI/media/Media/results/cpi_logo.png",
+    "homeURL" : "link.pages-nursing-homepage",
+    "htmlClass": "pl",
+    "bodyClass": "body",
+    "btnText" : "Button",
+    "btnURL" : "#",
+    "btn-image" : "../../images/fpo_square.png",
+    "btn-image-hover" : "../../images/fpo_square.png",
+    "progress" : true,
+    "max" : "100",
+    "progressValue" : "85",
+    "fade" : "left",
+    "align" : "center",
+	"alertText" : "An alert is messaging that tells the user some information. Alerts can be error, warning, success, or info messages",
+    "quoteText" : "A block quotation (also known as a long quotation or extract) is a quotation in a written document, that is set off from the main text as a paragraph, or block of text, and typically distinguished visually using indentation and a different typeface or smaller size quotation.",
+    "quoteSource" : "<a href='https://en.wikipedia.org/wiki/Block_quotation'>Wikipedia</a>",
+    "img": {
+        "landscape-4x3": {
+            "src": "../../images/fpo_4x3.png",
+            "alt": "4x3 Image"
+        },
+        "landscape-16x9": {
+            "src": "../../images/fpo_hero.png",
+            "alt": "16x9 Image"
+        },
+        "avatar" : {
+            "src" : "../../images/fpo_avatar.png",
+            "alt" : "Person Name"
+        }
+    },
+    "imgSquare" : {
+        "src": "../../images/fpo_square.png",
+        "alt": "Square Image"
+    },
+    "imgHero" : {
+        "src": "../../images/fpo_hero.png",
+        "alt": "Hero Image"
+    },
+    "imgLandscape" : {
+        "src": "../../images/fpo_16x9.png",
+        "alt": "Landscape Image"
+    },
+    "headline" : {
+        "short" : "Lorem ipsum dolor sit (37 characters)",
+        "medium" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit iopa. (76 characters)",
+        "long" : "Setting the global standard in evidence-based violence prevention training, we help hospitals like yours create meaningful cultures of safety. (158 characters)"
+    },
+    "sectionTitle" : "Section Title",
+    "excerpt" : {
+        "short" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+        "medium" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "long" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    },
+    "number" : "12",
+    "primaryNav" : [
+        {
+            "label": "Home",
+            "url": "link.pages-nursing-homepage"
+        },
+        {
+            "label": "About",
+            "url": "link.pages-nursing-about-us"
+        },
+        {
+            "label": "Contact",
+            "url": "link.pages-contact"
+        },
+        {
+            "label": "CTA",
+            "url": "#"
+        }
+    ],
+    "footerSocial" : [
+        {
+            "label": "<svg role='presentation'> <use class='facebook' xlink:href='/images/social-icons.svg#facebook'></use>",
+            "url": "https://www.facebook.com/CPI.Training/"
+        },
+        {
+            "label": "<svg role='presentation'> <use class='twitter' xlink:href='/images/social-icons.svg#twitter'></use>",
+            "url": "https://twitter.com/cpi_training"
+        },
+        {
+            "label": "<svg role='presentation'> <use class='linkedin' xlink:href='/images/social-icons.svg#linkedin'></use>",
+            "url": "https://www.linkedin.com/company/crisis-prevention-institute"
+        },
+        {
+            "label": "<svg role='presentation'> <use class='youtube' xlink:href='/images/social-icons.svg#youtube'></use>",
+            "url": "https://www.youtube.com/user/crisisprevention"
+        }
+    ],
+    "url" : "#",
+    "htmlText" : "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis, unde, dolore? Ex fugit, necessitatibus tempore neque ullam nostrum ducimus alias beatae voluptatibus iusto, perspiciatis tenetur consectetur reprehenderit, harum quae rerum!</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit corrupti fuga, quas quisquam perspiciatis. Consequatur, atque ducimus dolores natus officia qui rerum consectetur repellat ullam accusantium laboriosam, reprehenderit nemo deleniti</p>",
+    "form" : true,
+    "field" : {
+        "id" : "field-id",
+        "label" : "label",
+        "type" : "text",
+        "placeholder" : "Placeholder",
+        "value" : "",
+        "fieldNote" : ""
+    },
+    "year" : "2018",
+    "fields" : [
+        { },
+        { }
+    ],
+    "textarea" : {
+	    "label" : "label"
+    },
+    "hero": true,
+    "alert": true,
+    "final-cta" : true,
+    "aboutus-list" : {
+        "mediaList": [
+            {
+            },
+            {
+            },
+            {
+            }
+        ],
+        "textButton" : false,
+        "pagination" : false
+    },
+    "visual-links": [
+        { },
+        { }
+    ],
+    "mediaList": [
+        { },
+        { },
+        { }
+    ],
+    "dynamic-counter" : true,
+    "stats": [
+        { },
+        { },
+        { }
+    ],
+    "stat-list" : true,
+    "resource-image" : "../../images/fpo_square.png",
+    "resource" : true,		
+    "sectionBlock" : true,
+    "textButton" : true,
+    "carousel-indicators" : true,
+"carousel-indicators-list" : [
+        {
+            "number" : "0"
+        },
+        {
+            "number" : "1"
+        },
+        {
+            "number" : "2"
+        }
+    ],
+"carousel" : true,
+ "carousel-slides" : [
+    {},
+    {},
+    {}],
+ "slide-id" : "#",
+ "slide-img-url" : "../../images/fpo_hero.png",
+"bootstrap-columns" : "4",
+"qualifier-before" : false,
+"data-count" : 8675309,
+"qualifier-after" : false,
+"reference" : 1,
+"source-link" : "#",
+"source-list" : [
+    {},
+    {},
+    {}],
+"parallax" : true,
+"parallax-class" : "sample",
+"results" : true,
+"NCI-copy" :"<p><i>Nonviolent Crisis Intervention</i><sup>&reg;</sup> training teaches the practical skills and strategies needed for assessing, managing, and responding to workplace violence. Focusing on effective prevention and safe intervention, our time-tested training supports a culture of safety:</p><ul><li>You choose key staff members to take our Instructor Certification Program.</li><li>They&rsquo;ll master verbal and physical intervention skills and learn how to successfully facilitate our training to their peers.</li><li>After becoming certified, they&rsquo;ll train their colleagues on-site according to the level of risk they face.</li><li>Your hospital begins experiencing a measurable reduction in workplace violence and its associated negative outcomes.</li></ul>"
+}

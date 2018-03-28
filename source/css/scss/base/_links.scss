@@ -1,0 +1,18 @@
+/*------------------------------------*\
+    #LINKS
+\*------------------------------------*/
+
+/**
+ * Links
+ */
+a {
+	color: $cpi_pri;
+	text-decoration: none;
+	outline: 0;
+	transition: all $anim-speed-quick $anim-ease;
+
+	&:hover, &:focus {
+		color: $cpi_pri_lt;
+  text-decoration: none;
+	}
+}

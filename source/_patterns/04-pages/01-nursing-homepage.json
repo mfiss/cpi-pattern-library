@@ -1,0 +1,35 @@
+{
+	"title" : "Nursing Home Page",
+	"bodyClass": "home",
+ "carousel-slides" : [
+    {
+        "slide-id" : "Attrition-link",
+        "slide-img-url" : "https://www.crisisprevention.com/CPI/media/Media/Nursing-Campaign-Assets/Attrition-Hero-Shot-01.jpg",
+        "headline" : {
+        				"short" : "Doing Nothing Could Cost You Everything.",
+        				"medium" : "Without workplace violence prevention training, your hospital faces fines, your staff risks injury, and your patient care is compromised."
+        			},
+        "slide-link-url" : "#",
+        "cta" : "Read More"
+    },
+    {
+        "slide-id" : "Incidents-link",
+        "slide-img-url" : "https://www.crisisprevention.com/CPI/media/Media/Nursing-Campaign-Assets/Sparring-Hero-Shot-01-cropped.jpg",
+        "headline" : {
+        				"short" : "Sparring Wasn’t in Your Curriculum.",
+        				"medium" : "It's time to build a sustainable culture of safety at your organization that keeps all staff out of harm’s way."
+        			},        
+        "slide-link-url" : "#",
+        "cta" : "Read More"
+    },
+    {
+        "slide-id" : "Industry-Costs-link",
+        "slide-img-url" : "https://www.crisisprevention.com/CPI/media/Media/Nursing-Campaign-Assets/Doing-Nothing-Hero-Shot-01-cropped.jpg",
+        "headline" : {
+        				"short" : "Penalties and Fines Are Just the Start.",
+        				"medium" : "When it comes to regulatory oversight, one complaint can lead to countless costs in dollars—and reputation."
+        			},
+        "slide-link-url" : "#",
+        "cta" : "Read More"
+    }]
+    } 	

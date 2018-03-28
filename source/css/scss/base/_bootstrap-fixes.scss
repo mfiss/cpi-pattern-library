@@ -1,0 +1,23 @@
+/*------------------------------------*\
+    #BOOTSTRAP FIXES
+\*------------------------------------*/
+
+/**
+ * Reset font-size from Bootstrap's to viewer's browser setting.
+ */
+
+ html {
+    font-size:100%;
+ }
+
+  /* Overriding bootstrap nav styles */ 
+  .nav>li>a:focus, .nav>li>a:hover {
+      text-decoration: none;
+    background-color:rgba(255,255,255,0);
+  }
+/* Fixes float issue in IE */
+    @media(max-width:992px) {
+    .pull-right {
+      float: none !important;
+    }
+  }

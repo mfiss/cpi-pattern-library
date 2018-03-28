@@ -1,0 +1,25 @@
+{
+	"pageTitle" : "Contact Us",
+	"headline" : {
+		"short" : "We're here for you.",
+		"long" : "Call us toll-free at 800.558.8976. One of our Training Coordinators will be happy to discuss your unique needs and find the best solution for you and your organization.",
+		"medium" : "Not ready to talk to us just yet? No worries! When you are, you can reach us in all the usual ways."
+	},
+	"contact-list" : [
+		{
+			"contact-method" : "By Email:<br /><a href='mailto:info@crisisprevention.com'>info@crisisprevention.com</a>"
+		},
+		{
+			"contact-method" : "By Fax:<br />414.979.7098"
+		},
+		{
+			"contact-method" : "By Mail:<br />10850 W. Park Place<br />Suite 600<br />Milwaukee, WI 53224"
+		},
+		{
+			"contact-method" : "By Phone:<br />800.558.8976<br />888.758.6048 (TTY)"
+		},
+		{
+			"contact-method" : "Office Hours:<br />Monday - Friday<br />7:30 a.m. - 6:00 p.m. (CT)"
+		}			
+	]
+}

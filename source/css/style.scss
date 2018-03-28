@@ -1,0 +1,73 @@
+/*
+Atomic design is philosophically complimentary with these CSS approaches:
+
+* SMACSS by Jonathan Snook http://smacss.com/
+* OOCSS by Nicole Sullivan http://oocss.org/
+* BEM CSS Methology : http://bem.info/method/
+* CSS Guidelines by Harry Roberts : https://github.com/csswizardry/CSS-Guidelines
+
+So feel free to use any of these approaches. Or don't. It's totally up to you.
+
+*/
+
+/*------------------------------------*\
+    $TABLE OF CONTENTS
+    based generally on Harry Roberts excellent CSS Guidelines https://github.com/csswizardry/CSS-Guidelines
+\*------------------------------------*/
+/**
+ * ABSTRACTS..............Declarations of Sass variables and mixins
+ * Mixins.................Mixin styles that are included in the site
+ * Variables..............Variables for styles that are used in the site
+ *
+ * BASE...................Base/reset styles for certain elements
+ * Global Classes.........Base styles used across the entirety of the site
+ * Headings...............Base styles for headings (h1, h2, etc.)
+ * Links..................Base styles for links
+ * Lists..................Base styles lists
+ * Text...................Base styles for text elements
+ *
+ * COMPONENTS.............Styles for certain components
+ * Blocks.................Styles for block components
+ * Buttons................Styles for button components
+ * Carousels..............Styles for carousels
+ * Footer.................Styles for the footer component
+ * Forms..................Styles for form components
+ * Header.................Styles for header component
+ * Lists..................Styles for types of lists
+ * Sections...............Styles for section components
+ */
+
+/*------------------------------------*\
+    $ABSTRACTS
+\*------------------------------------*/
+@import "scss/abstracts/mixins";
+@import "scss/abstracts/variables";
+
+
+
+
+
+/*------------------------------------*\
+    $BASE
+\*------------------------------------*/
+@import "scss/base/body";
+@import "scss/base/global-classes";
+@import "scss/base/headings";
+@import "scss/base/links";
+@import "scss/base/lists";
+@import "scss/base/text";
+@import "scss/base/bootstrap-fixes";
+
+
+
+
+/*------------------------------------*\
+    $COMPONENTS
+\*------------------------------------*/
+@import "scss/components/blocks";
+@import "scss/components/buttons";
+@import "scss/components/carousel";
+@import "scss/components/footer";
+@import "scss/components/header";
+@import "scss/components/lists";
+@import "scss/components/sections";

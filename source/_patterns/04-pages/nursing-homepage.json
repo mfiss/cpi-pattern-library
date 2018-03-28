@@ -1,0 +1,152 @@
+{
+	"title" : "Home Page",
+	"bodyClass": "home",
+	"carousel" : {
+		"carousel-slides" : [
+			{
+				"slide-id" : "Attrition-Link",
+				"slide-img-url" : "https://www.crisisprevention.com/CPI/media/Media/Nursing-Campaign-Assets/Attrition-Hero-Shot-01.jpg",
+				"headline" : {
+					"short" : "Doing Nothing Could Cost You Everything.",
+					"medium" : "Without workplace violence prevention training, your hospital faces fines, your staff risks injury, and your patient care is compromised."
+				},
+				"slide-link-url" : "#",
+				"btnText" : "Read More"
+			},
+			{
+				"slide-id" : "Incidents-link",
+				"slide-img-url" : "https://www.crisisprevention.com/CPI/media/Media/Nursing-Campaign-Assets/Sparring-Hero-Shot-01-cropped.jpg",
+				"headline" : {
+					"short" : "Sparring Wasn’t in Your Curriculum.",
+					"medium" : "It's time to build a sustainable culture of safety at your organization that keeps all staff out of harm’s way."
+				},
+				"slide-link-url" : "#",
+				"btnText" : "Read More"
+			},
+			{
+				"slide-id" : "Industry-Costs-link",
+				"slide-img-url" : "https://www.crisisprevention.com/CPI/media/Media/Nursing-Campaign-Assets/Doing-Nothing-Hero-Shot-01-cropped.jpg",
+				"headline" : {
+					"short" : "Penalties and Fines Are Just the Start.",
+					"medium" : "When it comes to regulatory oversight, one complaint can lead to countless costs in dollars—and reputation."
+				},
+				"slide-link-url" : "#",
+				"btnText" : "Read More"
+			}
+		]
+	},
+	"dynamic-counter" : {
+		"headline" : {
+			"short" : "Total workers’ compensation costs so far this year."
+		},
+		"excerpt" : {
+			"medium" : "Based on historical claim information over 10 incident years, that includes preventable incidents of workplace violence."
+		},
+		"reference" : 1
+	},
+	"headline" : {
+		"medium" : "People are getting hurt. Hospitals are underperforming. Patients are suffering."
+	},
+	"stats" : [
+		{
+			"bootstrap-columns" : 4,
+			"qualifier-before" : false,
+			"data-count" : 76,
+			"qualifier-after" : "%",
+			"headline" : {
+				"short" : "Of violent acts in hospitals are against nurses."
+			},
+			"reference" : 2
+		},
+		{
+			"bootstrap-columns" : 4,
+			"qualifier-before" : false,
+			"data-count" : 26000,
+			"qualifier-after" : false,
+			"headline" : {
+				"short" : "Claims of lost time over five incident years—including preventable incidents of workplace violence."
+			},
+			"reference" : 3
+		},
+		{
+			"bootstrap-columns" : 4,
+			"qualifier-before" : "$",
+			"data-count" : 70000,
+			"qualifier-after" : false,
+			"headline" : {
+				"short" : "The cost of a single fine that one hospital faced."
+			},
+			"reference" : 4
+		}],
+	"source-list" : [
+		{
+			"source-link" : "http://www.aon.com/risk-services/thought-leadership/report-2016-health-care-barometer.jsp",
+			"headline" : {
+				"short" : "2016 Health Care Workers’ Compensation Barometer Report",
+				"medium" : "Aon, 2016"
+			}
+		},
+		{
+			"source-link" : false,
+			"headline" : {
+				"short" : false,
+				"medium" : "Indiana University Health, “Protecting the Nursing Workforce through an Aggression Prevention Team and Behavior Alert Response,” 2016 ANCC National Magnet Conference; data in right-hand panel relates to IU Health’s Academic Health Center Methodist Hospital (Level 1 trauma center, 787 beds, 100,000 + annual; ED visits). BLS​"
+			}
+		},
+		{
+			"source-link" : "http://www.beechercarlson.com/company-news/2016-hospital-workers-compensation-benchmark-study",
+			"headline" : {
+				"short" : "2016 Hospital Workers’ Compensation Benchmark Study",
+				"medium" : "Beecher Carlson, 2016"
+			}
+		},
+		{
+			"source-link" : "https://www.osha.gov/news/newsreleases/region2/08112014",
+			"headline" : {
+				"short" : "https://www.osha.gov/news/newsreleases/region2/08112014",
+				"medium" : "OSHA News Release - Region 2"
+			}
+		}],
+	"parallax" : {
+		"parallax-class" : "whoWeAre",
+		"headline" : {
+			"short" : "Everybody Deserves Safer Hospitals.",
+			"medium" : "Setting the global standard in evidence-based violence prevention training, we help hospitals like yours create meaningful cultures of safety."
+		},
+		"parallax-button" : {
+			"button-url" : "#",
+			"btnText" : "About Us"
+		}
+	},
+	"visual-links" : [
+	{
+		"bootstrap-columns" : "6",
+		"align" : "center",
+		"btnURL" : "#",
+		"btn-image" : "https://www.crisisprevention.com/CPI/media/Media/Nursing-Campaign-Assets/Matrix-Button.png",
+		"btn-image-hover" : "https://www.crisisprevention.com/CPI/media/Media/Nursing-Campaign-Assets/Matrix-Button_active.png",
+		"btnText" : "The Risk Stratification Matrix",
+		"headline" : {
+			"medium" : "Training solutions that fit."
+		}
+	},
+	{
+		"bootstrap-columns" : "6",
+		"align" : "center",
+		"btnURL" : "#",
+		"btn-image" : "https://www.crisisprevention.com/CPI/media/Media/Nursing-Campaign-Assets/Contact-Button.png",
+		"btn-image-hover" : "https://www.crisisprevention.com/CPI/media/Media/Nursing-Campaign-Assets/Contact-Button_active.png",
+		"btnText" : "Schedule A Consultation",
+		"headline" : {
+			"medium" : "Contact us to start building a culture of safety at your hospital."
+		}
+	}
+],
+	"results" : {
+		"headline" : {
+			"short" : "Results matter.",
+			"medium" : "Positives outcomes like these can be in your future.",
+			"long" : "Want results like these? Contact us to receive a free consultation to learn how CPI training could do the same for you."
+		}
+	}
+}

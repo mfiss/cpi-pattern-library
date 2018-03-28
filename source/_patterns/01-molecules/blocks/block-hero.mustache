@@ -1,0 +1,15 @@
+	<div class="container">
+		<div class="c-block-hero c-block-hero-fade-{{fade}}">
+
+			{{> atoms-hero:c-block-hero__img }}
+			<div class="c-block-hero__content">
+				<h1>{{{ headline.short }}}</h1>
+				<h2>{{{ headline.medium }}}</h2>
+				<a href="{{ button-url}}">
+					{{# hero-button}}
+					{{> atoms-button }}
+						{{/ hero-button}}
+				</a>
+			</div>
+		</div>
+	</div><!-- end c-block--hero-->

@@ -1,0 +1,22 @@
+/*------------------------------------*\
+    #BODY
+\*------------------------------------*/
+
+/**
+ * Body base styles
+ */
+body {
+	background: $color-white;
+	color: $color-gray-80;
+	font: 100%/1.5 $font;
+	-webkit-text-size-adjust: 100%;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+ margin-top: 96px; /* Fixed Header Offset */
+ -webkit-font-smoothing: antialiased;
+}
+
+
+
+

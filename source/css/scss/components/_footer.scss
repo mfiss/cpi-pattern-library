@@ -1,0 +1,172 @@
+/*------------------------------------*\
+    #FOOTER
+\*------------------------------------*/
+
+/**
+ * Footer
+ */
+  footer {
+    background: transparent;
+    color: #494036;
+    padding: 10px 0;
+    margin-top: 25px;
+    text-align: center;
+    position: relative;
+  }
+
+  footer .social-container {
+    margin: 0 auto;
+    margin-top: 25px;
+    margin-bottom:25px;
+    width: 128px;
+  }
+
+  footer .social-icon {
+    width: 27px;
+    height: 27px;
+    float: right;
+    margin-left: 5px;
+    margin-bottom:25px;
+  }
+
+  footer .social-icon img {
+    width: 100%;
+}
+
+  footer .footer-logo {
+    width: 100px;
+    margin: 0 auto;
+  }
+
+  footer .footer-logo img {
+    width: 100%;
+  }
+
+/*------------------------------------*\
+    #FOOTER
+\*------------------------------------*/
+/**
+ * Footer
+ */
+footer .social-container {
+    margin: 0 auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 128px;
+}
+footer .social-container {
+    margin: 0 auto;
+    margin-top: 25px;
+    width: 128px;
+}
+
+footer .social-icon {
+    width: 27px;
+    height: 27px;
+    float: right;
+    margin-left: 5px;
+    margin-bottom: 25px;
+}
+footer .social-icon {
+    width: 27px;
+    height: 27px;
+    float: right;
+    margin-left: 5px;
+}
+
+
+
+
+.c-footer {
+  clear: both;
+  overflow: hidden;
+  background: #ccc;
+  color: #000;
+  line-height: 1.2;
+  padding: 1em 0;
+  font-weight: 300; }
+
+.c-footer img {
+  margin: auto;
+  margin-bottom: 1rem; }
+
+/**
+ * Footer nav
+ */
+.c-footer__info {
+  /*max-width: 40em;*/ }
+  .c-footer__info a {
+    color: #666;
+    text-decoration: none; }
+    .c-footer__info a:hover, .c-footer__info a:focus {
+      color: #333; }
+
+/*------------------------------------*\
+    #FOOTER SOCIAL LINKS
+\*------------------------------------*/
+/**
+ * Footer Social
+ */
+.c-footer-social {
+  display: block; }
+
+/**
+ * Footer Social List
+ */
+.c-footer-social__list {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  -moz-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 25%;
+  margin: auto; }
+  @media all and (min-width: 24em) {
+    .c-footer-social__list {
+      -webkit-flex-direction: row;
+      -moz-flex-direction: row;
+      -ms-flex-direction: row;
+      flex-direction: row; } }
+
+/**
+ * Footer Social List Item
+ */
+.c-footer-social__item {
+  width: 50%;
+  cursor: pointer; }
+  @media all and (min-width: 24em) {
+    .c-footer-social__item {
+      width: inherit; } }
+  .c-footer-social__item svg {
+    width: 24px;
+    height: 24px; }
+  .c-footer-social__item:hover {
+    opacity: .5; }
+
+/**
+ * Footer Social Icon Color Filters
+ */
+use.youtube {
+  fill: #ff0000; }
+
+use.facebook {
+  fill: #3b5998; }
+
+use.linkedin {
+  fill: #007bb5; }
+
+use.twitter {
+  fill: #55acee; }
+
+use.instagram {
+  fill: #e95950; }
+
+use.pinterest {
+  fill: #cb2027; }
+
+svg path {
+  all: inherit; }

@@ -1,0 +1,31 @@
+<div id="myCarousel" class="carousel slide">
+  {{# carousel-indicators }}
+    {{> molecules-carousel-indicators }}
+  {{/ carousel-indicators }}
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+ {{# carousel-slides }}
+<div class="item" id="{{ slide-id }}">
+      <img data-object-fit="cover" data-object-position="top center" src=" {{slide-img-url }}">
+      <div class="carousel-caption">
+        <h1 class='hero-title'>{{ headline.short }}</h1>
+        <h2> {{ headline.medium }}</h2>
+        <br />
+        <a href="{{ slide-link-url}}">
+          {{> atoms-button }}
+        </a>
+        </div>
+      </div>
+ {{/ carousel-slides }}
+       <!-- Left and right controls -->
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+        <span class="sr-only">Next</span>
+      </a>      
+    </div>
+</div>
+

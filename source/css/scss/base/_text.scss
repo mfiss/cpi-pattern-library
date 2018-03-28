@@ -1,0 +1,62 @@
+/*------------------------------------*\
+    #TEXT
+\*------------------------------------*/
+
+/**
+ * Paragraph base styles
+ */
+p {
+	margin-bottom: $space;
+}
+
+/**
+ * Blockquote base styles
+ */
+blockquote {
+    font-size:1.5rem;
+    font-style:italic;
+    border-left: 6px solid $color-gray-40;
+    color: $color-gray-40;
+	padding-left: $pad;
+    margin-top: $space-double;
+	margin-bottom: $space-double;
+}
+
+cite {
+    font-weight:900;
+    font-size:1rem;
+    text-transform:uppercase;
+}
+
+/**
+ * Horizontal rule base styles
+ */
+hr {
+	border: 0;
+    height: 2px;
+    background: $color-gray-50;
+    margin: $space-double 0;
+}
+
+/**
+ * Abbreviation base styles
+ */
+abbr {
+    border-bottom: 1px dotted $color-gray-50;
+    cursor: help;
+}
+
+/**
+ * Statistics styles
+ */
+.count-number {
+    font-size: 3.25rem;
+}
+
+.small-text {
+    font-size: $font-size-small-2;
+}
+
+.smaller-text {
+    font-size: $font-size-small;
+}

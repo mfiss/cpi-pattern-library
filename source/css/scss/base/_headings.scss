@@ -1,0 +1,86 @@
+/*------------------------------------*\
+    #HEADINGS
+\*------------------------------------*/
+
+/**
+ * Heading 1
+ */
+h1  {
+	font-size: 2.5em;
+	font-weight: 900;
+}
+
+/**
+ * Heading 2
+ */
+h2 {
+	font-size: 1.75em;
+	font-weight:400;
+}
+
+/**
+ * Heading 3
+ */
+h3  {
+	font-size: 1.5em;
+	font-weight: 400;
+}
+
+/**
+ * Heading 4
+ */
+h4  {
+	font-size: 1.5em;
+	font-weight:300;
+}
+
+/**
+ * Heading 5
+ */
+h5 {
+	font-size: 1.25em;
+}
+
+/**
+ * Heading 6
+ */
+h6 {
+	font-size: .75em;
+	font-weight:900;
+}
+
+/**
+ * Subheading
+ */
+.subheading {
+	font-family: $font-secondary;
+	font-weight: normal;
+}
+
+/**
+ * Alternate h1
+ */
+.alt-h1 {
+	font-family: $font-tertiary;
+	font-size: 3em;
+}
+
+@media all and (max-width: $bp-med) {
+		  h1 {
+      font-size:1.25rem;
+      }
+    h2 {
+      font-size:1rem;
+      }
+
+	}
+
+@media all and (max-width: $bp-large) {
+			  h1 {
+      font-size:1.75rem;
+      }
+    h2 {
+      font-size:1.25rem;
+      }
+
+	}

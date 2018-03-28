@@ -1,0 +1,17 @@
+<div class="c-block-hero parallax-{{ parallax-class }} c-block-hero-fade-{{fade}}">
+	<div class="container">
+			
+			<div class="parallax__content">
+				<h1 class='hero-title'>{{ headline.short }}</h1>
+				<h2> {{ headline.medium }}</h2>
+				<br />
+
+				{{#parallax-button}}
+				<a href="{{ button-url}}">
+					{{> atoms-button }}
+				</a>
+				{{/parallax-button}}
+
+		</div>
+	</div>
+</div>
